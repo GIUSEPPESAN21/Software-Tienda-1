@@ -27,7 +27,7 @@ except ImportError as e:
 # --- CONFIGURACIÓN DE PÁGINA Y ESTILOS ---
 st.set_page_config(
     page_title="OSIRIS by SAVA & Chingon",
-    page_icon="https://github.com/GIUSEPPESAN21/sava-assets/blob/main/logo_sava.png?raw=true",
+    page_icon="https://github.com/GIUSEPPESAN21/LOGO-SAVA/blob/main/LOGO.jpg?raw=true",
     layout="wide"
 )
 
@@ -1018,7 +1018,7 @@ elif st.session_state.page == "🏢 Acerca de SAVA":
     # Use columns for founder details
     col1_founder, col2_founder = st.columns([1, 3])
     with col1_founder:
-        st.image("https://github.com/GIUSEPPESAN21/sava-assets/blob/main/logo_sava.png?raw=true", width=200, caption="CEO") # Adjusted width
+        st.image("https://github.com/GIUSEPPESAN21/LOGO-SAVA/blob/main/LOGO.jpg?raw=true", width=200, caption="CEO") # Adjusted width
     with col2_founder:
         st.markdown("#### Joseph Javier Sánchez Acuña")
         st.markdown("**CEO - SAVA SOFTWARE FOR ENGINEERING**")
@@ -1046,4 +1046,5 @@ elif st.session_state.page == "🏢 Acerca de SAVA":
     with c3_cof:
         # Assuming Joseph is also the Project Director based on previous code
         st.info("**Joseph Javier Sanchez Acuña**\n\n*Director de Proyecto*")
+
 
